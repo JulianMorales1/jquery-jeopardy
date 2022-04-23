@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>JEOPARDY!</h1>
+		<div id="score">Your Score!</div>
+
+		<div class="game-board">
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="one box">$100</div>
+			<div class="two box">$100</div>
+			<div class="three box">$100</div>
+			<div class="four box">$100</div>
+			<div class="five box">$100</div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="six box">$200</div>
+			<div class="seven box">$200</div>
+			<div class="eight box">$200</div>
+			<div class="nine box">$200</div>
+			<div class="ten box">$200</div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="eleven box">$400</div>
+			<div class="twelve box">$400</div>
+			<div class="thirteen box">$400</div>
+			<div class="fourteen box">$400</div>
+			<div class="fifteen box">$400</div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="sixteen box">$600</div>
+			<div class="seventeen box">$600</div>
+			<div class="eighteen box">$600</div>
+			<div class="nineteen box">$600</div>
+			<div class="twenty box">$600</div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="twentyOne box">$800</div>
+			<div class="twentyTwo box">$800</div>
+			<div class="twentyThree box">$800</div>
+			<div class="twentyFour box">$800</div>
+			<div class="twentyFive box">$800</div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+			<div class="wall"></div>
+		</div>
+		<br />
+		<form>
+			<div id="displayQuestion"></div>
+			<br />
+			<div id="submitArea">
+				<div id="wrongRight">Your Answer?</div>
+				<input id="answerText" type="text" />
+				<input id="submitAnswer" type="submit" />
+			</div>
+		</form>
+
+		<button onclick="reset()">Reset</button>
+
+		<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
